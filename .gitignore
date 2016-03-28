@@ -35,3 +35,6 @@ node_modules
 # Webstorm
 .DS_Store
 .idea
+
+# build output directory
+lib
