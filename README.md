@@ -22,7 +22,7 @@ For instance, localStorage contains all the above 3 methods, and may be input as
 In your `store/configureStore.js` you can add a persistStore enhancer.   This enhancer has been extracted into a separate module taking a backing store with the api mentioned above.
 An example of this is below, showing how to pass in the backing store before calling the persistStore enhancer.
   
-```  
+```es6  
 import { createStore, applyMiddleware, compose } from 'redux';
 import rootReducer from '../reducers';
 import stateStore from 'redux-devtools-state-store';
